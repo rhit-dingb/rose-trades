@@ -1,0 +1,329 @@
+body {
+    background: #dddddd;
+}
+
+body,
+html {
+    height: 100%;
+}
+
+img {
+    width: 150px;
+    height: 200px;
+    object-fit: cover;
+  }
+
+.page-container {
+    margin-top: 75px;
+}
+
+#profilePagetagOne{
+    margin-left: 30em;
+    margin-bottom: 10px;;
+}
+
+#form2{
+    margin: 0 0 0 0;
+}
+
+#sidebar .nav-item .nav-link {
+    background-color: #ff4d00;
+    margin: 15px 35px;
+    text-align: center;
+    border-radius: 35px;
+    color: white;
+}
+
+#updateItemBtn{
+    position: relative;
+    background-color: #ff4d00;
+    color: white;
+    font-family: Georgia;
+    text-align: center;
+    padding: 10px 35px;
+    border-radius: 5px;
+    margin-top: 50px;
+}
+
+#editItemBtn {
+    display: none;
+    position: relative;
+    background-color: #ff4d00;
+    color: white;
+    font-family: Georgia;
+    text-align: center;
+    padding: 10px 35px;
+    border-radius: 5px;
+    margin-top: 50px;
+}
+
+.selected-sidebar-item {
+    box-shadow: 6px 3px 3px black;
+}
+
+.card button {
+    background-color: #ff4d00;
+    border-radius: 15px;
+    color: white;
+}
+
+.main-btn {
+    background-color: #ff4d00;
+    border-radius: 5px;
+    color: white;
+}
+
+#search-bar button {
+    background-color: #ff4d00;
+    border-radius: 5px;
+    color: white;
+}
+
+.centered {
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+#scheduleSelectMon{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin: 0px;
+}
+#buttonGroup{
+    flex-direction: column;
+    background-color: #616366;
+}
+
+#rowSchedule .col{
+    flex-basis: 0;
+    max-width: 100%;
+}
+
+#commonNavBar{
+    z-index: 99;
+}
+
+
+.scheduleButton{
+    color: white;
+}
+
+.schedule-tag{
+    margin-left: auto;
+}
+
+
+@media (min-width: 578px) {
+
+    h2 {
+        position: relative;
+        color: #343A40;
+        font-family: Georgia;
+        text-align: center;
+        font-size: 50px;
+        margin: 100px auto 50px;
+        width: 380px;
+    }
+
+    #loginButton {
+        position: relative;
+        background-color: #ff4d00;
+        color: white;
+        font-family: Georgia;
+        text-align: center;
+        padding: 10px 35px;
+        border-radius: 5px;
+        margin-top: 50px;
+    }
+
+    .form-group {
+        width: 500px;
+        margin: 40px 60px;
+    }
+
+    .appointment-detail-title{
+        width: 500px;
+        margin: 40px 60px;
+        
+    }
+    /* #createAccountButton{
+        position: relative;
+        background-color: #ff4d00;
+        color: white;
+        font-family: Georgia;
+        text-align: center;
+        padding: 10px 35px;
+        border-radius: 5px;
+        margin-top: 50px;
+    } */
+}
+
+.account-settings-form {
+    position: relative;
+    left: 15%;
+}
+
+#updateAccountBtn {
+    margin-left: 35%;
+}
+
+#scheduleSelectMon {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin: 0px;
+}
+
+#buttonGroup {
+    flex-direction: column;
+    background-color: #616366;
+}
+
+.scheduleButton{
+
+    color: white;
+}
+
+#addItemBtn {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    background: #ff4d00;
+    color: white;
+    z-index: 999;
+}
+
+#deleteItemBtn {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    background: #ff4d00;
+    color: white;
+    z-index: 999;
+}
+
+#addItemBtn:active {
+    transform: translateY(2px);
+    opacity: 0.8;
+}
+
+/**** Custom styles for noUiSlider ****/
+.noUi-connect {
+	background: #ff4d00;
+}
+
+#newItemRange {
+    margin-top: 75px;
+}
+
+.chat-list-container {
+    margin-top: 15px;
+}
+
+/* Chat containers */
+.chat-container {
+    border: 2px solid #dedede;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+  }
+
+ #input-chat-row{
+    
+    background-color: #7e7e80;
+    color: white;
+    width: 69em; 
+    border-radius: 5px;
+ }
+#messageInput{
+    color: white;
+    margin-left: 10px;
+    padding: 0 10px;
+}
+#inputwrapper ::placeholder{
+    color: white;
+}
+#enterBtn{
+    display: relative;
+    left: -5px;
+    top: 3px;
+}
+
+
+#emptyPlaceHolder{
+    height : 40px;
+}
+
+  /* Darker chat container */
+  .darker {
+    border-color: #ccc;
+    background-color: #ddd;
+  }
+  
+  /* Clear floats */
+  .chat-container::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  /* Style images */
+  .chat-container img {
+    float: left;
+    max-width: 60px;
+    width: 100%;
+    margin-right: 20px;
+    border-radius: 50%;
+  }
+  
+  /* Style the right image */
+  .chat-container img.right {
+    float: right;
+    margin-left: 20px;
+    margin-right:0;
+  }
+  
+  /* Style time text */
+  .time-right {
+    float: right;
+    color: #aaa;
+  }
+  
+  /* Style time text */
+  .time-left {
+    float: left;
+    color: #999;
+  }
+
+  #favoritedContainer {
+    cursor: pointer;
+  }
+
+  #warningContainer {
+      cursor: pointer;
+  }
+
+  .snackbar.snackbar-opened {
+    padding: 14px 15px;
+    margin-bottom: 20px;
+    height: auto;
+    -moz-transition: -moz-transform 0.2s ease-in-out, opacity 0.2s ease-in, height 0 linear 0.2s;
+    -webkit-transition: -webkit-transform 0.2s ease-in-out, opacity 0.2s ease-in, height 0 linear 0.2s;
+    transition: transform 0.2s ease-in-out, opacity 0.2s ease-in, height 0 linear 0.2s, height 0 linear 0.2s;
+    -moz-transform: none;
+    -webkit-transform: none;
+    transform: none;
+  }
+
+  .list-group-item:hover {
+    cursor: pointer;
+  }
+
+  #deleteIcon {
+      cursor: pointer;
+  }
